@@ -83,8 +83,5 @@
   },
   "peerDependencies": {
     "popper.js": "^1.14.3"
-  },
-  "dependencies": {
-    "np": "^5.0.3"
   }
 }
