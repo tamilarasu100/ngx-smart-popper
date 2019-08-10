@@ -5,6 +5,8 @@
   border: 1px solid grey;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   padding: 10px;
+  z-index: 999999;
+  background: white;
 }
 
 .ngxp__container.ngxp__animation {
