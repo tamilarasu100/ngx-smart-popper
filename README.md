@@ -1,20 +1,20 @@
-# ngx-popper  
+# ngx-smart-popper  
 
-[![npm](https://img.shields.io/npm/v/ngx-popper.svg?style=flat-square)](https://www.npmjs.com/package/ngx-popper) 
-[![npm](https://img.shields.io/npm/dm/ngx-popper.svg?style=flat-square)](https://www.npmjs.com/package/ngx-popper) 
-[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/MrFrankel/ngx-popper/blob/master/LICENSE) [![Greenkeeper badge](https://badges.greenkeeper.io/MrFrankel/ngx-popper.svg)](https://greenkeeper.io/)
-  <img src="http://badge-size.now.sh/https://unpkg.com/ngx-popper@6.0.7/bundles/ngx-popper.umd.js?compression=brotli" alt="Stable Release Size"/>
-  <img src="http://badge-size.now.sh/https://unpkg.com/ngx-popper@6.0.7/bundles/ngx-popper.umd.js?compression=gzip" alt="Stable Release Size"/>
-[![Build Status](https://travis-ci.org/MrFrankel/ngx-popper.svg?branch=master)](https://travis-ci.org/MrFrankel/ngx-popper)
+[![npm](https://img.shields.io/npm/v/ngx-smart-popper.svg?style=flat-square)](https://www.npmjs.com/package/ngx-smart-popper) 
+[![npm](https://img.shields.io/npm/dm/ngx-smart-popper.svg?style=flat-square)](https://www.npmjs.com/package/ngx-smart-popper) 
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://github.com/MrFrankel/ngx-smart-popper/blob/master/LICENSE) [![Greenkeeper badge](https://badges.greenkeeper.io/MrFrankel/ngx-smart-popper.svg)](https://greenkeeper.io/)
+  <img src="http://badge-size.now.sh/https://unpkg.com/ngx-smart-popper@6.0.7/bundles/ngx-smart-popper.umd.js?compression=brotli" alt="Stable Release Size"/>
+  <img src="http://badge-size.now.sh/https://unpkg.com/ngx-smart-popper@6.0.7/bundles/ngx-smart-popper.umd.js?compression=gzip" alt="Stable Release Size"/>
+[![Build Status](https://travis-ci.org/MrFrankel/ngx-smart-popper.svg?branch=master)](https://travis-ci.org/MrFrankel/ngx-smart-popper)
 
-ngx-popper is an angular wrapper for the [Popper.js](https://popper.js.org/) library.
+ngx-smart-popper is an angular wrapper for the [Popper.js](https://popper.js.org/) library.
 
 ## Changes
 
 As of version 6.0.0 popper content runs in onPush change detection strategy, therefore forceChangeDetection is no longer necessary and is removed
 
 
-As of version 4.0.0 ngx-popper now use innerHTML binding for string popper i.e:
+As of version 4.0.0 ngx-smart-popper now use innerHTML binding for string popper i.e:
 ```HTML
 <div popper="some text"></div>
 ```
@@ -31,20 +31,20 @@ node and npm are required to run this package.
 
   ```terminal
   $ npm install popper.js --save
-  $ npm install ngx-popper --save 
+  $ npm install ngx-smart-popper --save 
   ```
   
   Or 
   
    ```terminal
     $ yarn add popper.js --save
-    $ yarn add ngx-popper --save 
+    $ yarn add ngx-smart-popper --save 
   ```
 
 2. You simply add into your module `NgxPopperModule`:
 
   ```typescript
-  import {NgxPopperModule} from 'ngx-popper';
+  import {NgxPopperModule} from 'ngx-smart-popper';
   
   @NgModule({
    // ...
@@ -65,14 +65,14 @@ SystemJS
         // map tells the System loader where to look for things
         map: {
             ... ,
-            'ngx-popper': 'npm:ngx-popper',
-            'popper-directive.js': 'npm:ngx-popper',
-            'popper.module': 'npm:ngx-popper',
+            'ngx-smart-popper': 'npm:ngx-smart-popper',
+            'popper-directive.js': 'npm:ngx-smart-popper',
+            'popper.module': 'npm:ngx-smart-popper',
         },
         // packages tells the System loader how to load when no filename and/or no extension
         packages: {
             ... ,
-            'ngx-popper': {
+            'ngx-smart-popper': {
                 main: 'index.js',
                 defaultExtension: 'js'
             },
@@ -203,7 +203,7 @@ SystemJS
 
 9. Override defaults:
 
-    Ngx-popper comes with a few default properties you can override in default to effect all instances
+    ngx-smart-popper comes with a few default properties you can override in default to effect all instances
     These are overridden by any child attributes.
 ```JavaScript
 NgModule({
@@ -267,7 +267,7 @@ NgModule({
   
     
 ### Demo
-<a href="https://mrfrankel.github.io/ngx-popper/">Demo</a>
+<a href="https://mrfrankel.github.io/ngx-smart-popper/">Demo</a>
 
 ### Contribute
   Hell ya!!!

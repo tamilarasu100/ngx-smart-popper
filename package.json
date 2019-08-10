@@ -1,7 +1,7 @@
 {
-  "name": "ngx-popper",
+  "name": "ngx-smart-popper",
   "version": "6.2.0",
-  "description": "ngx-popper is an Angular wrapper for popper.js",
+  "description": "ngx-smart-popper is an Angular wrapper for popper.js",
   "directories": {
     "test": "test"
   },
@@ -17,12 +17,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:MrFrankel/ngx-popper"
+    "url": "git@github.com:tamilarasu100/ngx-smart-popper"
   },
   "keywords": [
     "Angular",
     "ngx",
-    "ngx-popper",
+    "ngx-smart-popper",
     "ngx-tooltip",
     "popper",
     "popperjs"
@@ -31,7 +31,7 @@
     "node": ">=6.0.0",
     "npm": ">=3.4.0"
   },
-  "author": "MrFrankel",
+  "author": "tamilarasu100",
   "license": "MIT",
   "bugs": {
     "url": "/issues"
@@ -83,5 +83,8 @@
   },
   "peerDependencies": {
     "popper.js": "^1.14.3"
+  },
+  "dependencies": {
+    "np": "^5.0.3"
   }
 }
